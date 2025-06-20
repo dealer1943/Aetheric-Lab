@@ -42,7 +42,7 @@ def get_natal_seed() -> str:
     2. Use an online SHA-256 generator to hash that string.
     3. Paste the resulting 64-character hash here.
     """
-    natal_seed_hash = "7dbaa8d9fb22fecc3e4b4e985c2351033ba4a12dbf5cf5cca7f1285c4e75a213" # <-- REPLACE THIS EXAMPLE
+    natal_seed_hash = "" # <-- REPLACE THIS EXAMPLE
     return natal_seed_hash
 
 def create_session_seed(question_text: str) -> str:
